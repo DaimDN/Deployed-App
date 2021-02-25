@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 const mongoose = require('mongoose');
 
 const url = "mongodb+srv://foot:1234@cluster0.54bxc.mongodb.net/daimDB";
